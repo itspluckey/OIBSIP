@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <header>
+    <h1>📝 Daily To-Do</h1>
+    <button id="toggleMode">🌙 Dark Mode</button>
+  </header>
+
+  <section class="input-area">
+    <input type="text" id="taskInput" placeholder="Enter a new task...">
+    <button id="addTask">Add Task</button>
+  </section>
+
+  <main>
+    <div class="task-section">
+      <h2>Pending Tasks</h2>
+      <ul id="pendingList"></ul>
+    </div>
+
+    <div class="task-section">
+      <h2>Completed Tasks</h2>
+      <ul id="completedList"></ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ | To-Do Web App</p>
+  </footer>
+
+  <script src="script3.js"></script>
+</body>
+</html>
