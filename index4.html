@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple JS Login</title>
+<style>
+  body { font-family: Arial, sans-serif; text-align: center; background: #f0f4f7; }
+  .container { width: 300px; margin: 80px auto; padding: 20px;
+               background: #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+  input { width: 90%; padding: 10px; margin: 10px 0; }
+  button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+
+<div class="container" id="registerBox">
+  <h2>Register</h2>
+  <input type="text" id="regUser" placeholder="Username"><br>
+  <input type="password" id="regPass" placeholder="Password"><br>
+  <button onclick="register()">Register</button>
+</div>
+
+<div class="container" id="loginBox">
+  <h2>Login</h2>
+  <input type="text" id="loginUser" placeholder="Username"><br>
+  <input type="password" id="loginPass" placeholder="Password"><br>
+  <button onclick="login()">Login</button>
+</div>
+
+<div class="container hidden" id="dashboard">
+  <h2>Welcome <span id="userName"></span>!</h2>
+  <p>This is a secured page only for logged-in users.</p>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script4.js"></script>
+</body>
+</html>
