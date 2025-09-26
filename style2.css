@@ -1,0 +1,71 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f7;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(120deg, #2c3e50, #34495e);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.intro {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro img {
+  width: 250px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.admire {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.admire h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.admire p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: #fff;
+  margin-top: 40px;
+}
